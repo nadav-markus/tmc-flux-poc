@@ -8,7 +8,7 @@ ingress:
   alertmanagerServicePort: 80
 prometheus:
   pvc:
-    storageClassName:
+    storageClassName: sp
 alertmanager:
   pvc:
-    storageClassName:
+    storageClassName: sp
