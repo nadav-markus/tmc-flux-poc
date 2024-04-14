@@ -12,6 +12,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: fluxcd-poc
+    name: tmc-flux-poc
+    namespace: tanzu-continuousdelivery-resources
  
 
